@@ -9,4 +9,6 @@
   
   `/tab close <tab-index>` - Close tab with the desired tab index.<br/>
   `/tab close all` - Remove all tabs in Chrome.<br/>
+
+  `/tab reload <tab-index>` - Reload at index.
 </p>
