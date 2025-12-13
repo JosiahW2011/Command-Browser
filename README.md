@@ -16,5 +16,5 @@
 
   <h1>Miscellaneous</h1>
 
-  `/misc` - Choose a random Easter Egg/Function! Kinda like Lucky Blocks!
+  `/misc` - Choose a random Easter Egg/Function!
 </p>
