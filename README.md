@@ -13,4 +13,8 @@
   `/tab reload <tab-index>` - Reload at index.
 
   `/bookmarks create <parentId> <title> <URL>` - Create a bookmark with custom name, location, and directory. `<parentId>` could either be 1: Bookmarks bar, 2: Mobile Bookmarks, 3: Other Bookmarks.
+
+  <h1>Miscellaneous</h1>
+
+  `/misc` - Choose a random Easter Egg/Function! Kinda like Lucky Blocks!
 </p>
