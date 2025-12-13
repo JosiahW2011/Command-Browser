@@ -1,7 +1,7 @@
 <p>
 	<h1>Basic Commands</h1>
   
-  `/help` - Open this GitHub for commands list.
+  `/help` - Open this GitHub for commands list.<br/>
   `/search <query>` - Do a basic Google search.
 
   `/tab new <url>` - Open a new tab with the specified URL.<br/>
