@@ -11,4 +11,6 @@
   `/tab close all` - Remove all tabs in Chrome.<br/>
 
   `/tab reload <tab-index>` - Reload at index.
+
+  `/bookmarks create <parentId> <title> <URL>` - Create a bookmark with custom name, location, and directory. `<parentId>` could either be 1: Bookmarks bar, 2: Mobile Bookmarks, 3: Others Bookmarks.
 </p>
