@@ -1,8 +1,9 @@
 <p>
   Commands for the terminal:
 
+  Basic Commands
+  </h>
   `/help` - Open this GitHub for commands list.
-
   `/search <query>` - Do a basic Google search.
 
   `/tab new <url>` - Open a new tab with the secified URL.<br/>
