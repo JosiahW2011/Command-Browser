@@ -1,5 +1,5 @@
 <p>
-  Commands for your terminal:
+  Commands for the terminal:
 
   `/search <query>` - Do a basic Google search.
 
