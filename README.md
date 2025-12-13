@@ -1,2 +1,3 @@
-# Command-Browser
-A Chrome Extension that allows you to customize your browser!
+Commands for your terminal:
+
+/bg <set|clear> <url> - Set or clear the background image for both the search page with a basic URL (Supports GIF, JPG, PNG, and IMG.)
