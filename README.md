@@ -1,8 +1,6 @@
 <p>
-  Commands for the terminal:
-
-  Basic Commands
-  </h>
+  <h1>Basic Commands:</h1>
+  
   `/help` - Open this GitHub for commands list.
   `/search <query>` - Do a basic Google search.
 
