@@ -1,7 +1,7 @@
-<p>
-	<h1>~ The most recent version of Command-Browser is v1.0 ~</h1>
-	<h1>~ Developed by Josiah D. Widener ~</h1>
-	
+<h1> The most recent version of Command-Browser is v1.0 </h1>
+<h1> Developed by Josiah D. Widener </h1>
+
+<p>	
 	<h1>Basic Commands</h1>
   
   `/help` - Open this GitHub for commands list.<br/>
