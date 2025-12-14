@@ -1,5 +1,5 @@
-Recent Version: `1.0`
-Developer: `Josiah D. Widener`
+Recent Version: `1.0`<br/>
+Developer: `Josiah D. Widener`<br/>
 Published (TO GITHUB): `12/14/2025`
 
 <p>	
