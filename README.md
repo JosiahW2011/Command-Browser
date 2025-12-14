@@ -1,6 +1,6 @@
 Recent Version: `1.0`<br/>
 Developer: <a href="mailto:josiahwidener11@gmail.com">`Josiah D. Widener`</a><br/>
-Published (TO GITHUB): `12/14/2025`
+Date Published (To Github): `12/14/2025`
 
 <p>	
 	<h1>Basic Commands</h1>
