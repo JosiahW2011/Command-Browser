@@ -1,5 +1,5 @@
-<h1> The most recent version of Command-Browser is v1.0 </h1>
-<h1> Developed by Josiah D. Widener </h1>
+<h2> The most recent version of Command-Browser is v1.0 </h2>
+<h2> Developed by Josiah D. Widener </h2>
 
 <p>	
 	<h1>Basic Commands</h1>
