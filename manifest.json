@@ -1,0 +1,22 @@
+{
+    "name": "Command Browser",
+    "description": "Customize your browser with this command block-based extension!",
+    "version": "1.0",
+    "permissions": [ "storage", "tabs", "bookmarks" ],
+    "manifest_version": 3,
+    "icons": {
+        "64": "command_block.png",
+        "32": "command_block.png",
+        "48": "command_block.png",
+        "128": "command_block.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "64": "command_block.png",
+            "32": "command_block.png",
+            "48": "command_block.png",
+            "128": "command_block.png"
+        }
+    }
+}
