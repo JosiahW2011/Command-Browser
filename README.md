@@ -1,5 +1,5 @@
 Recent Version: `1.0`<br/>
-Developer: `Josiah D. Widener`<br/>
+Developer: <a href="mailto:josiahwidener11@gmail.com">`Josiah D. Widener`</a><br/>
 Published (TO GITHUB): `12/14/2025`
 
 <p>	
