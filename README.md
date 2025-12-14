@@ -9,8 +9,7 @@
   
   `/tab close <tab-index>` - Close tab with the desired tab index.<br/>
   `/tab close all` - Remove all tabs in Chrome.<br/>
-
-  `/tab reload <tab-index>` - Reload at index.
+  `/tab reload <tab-index>` - Reload at index.<br/>
   `/tab duplicate <tab-index>` - Duplicate a tab.
 
   `/bookmarks create <parentId> <title> <URL>` - Create a bookmark with custom name, location, and directory. `<parentId>` could either be 1: Bookmarks bar, 2: Mobile Bookmarks, 3: Other Bookmarks.
