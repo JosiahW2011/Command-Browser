@@ -1,4 +1,4 @@
-# The most recent version of Command-Browser is v1.0<br/>Developed by Josiah D. Widener
+## The most recent version of Command-Browser is v1.0<br/>Developed by Josiah D. Widener
 
 <p>	
 	<h1>Basic Commands</h1>
