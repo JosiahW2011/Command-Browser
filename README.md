@@ -13,6 +13,9 @@
 
   `/bookmarks create <parentId> <title> <URL>` - Create a bookmark with custom name, location, and directory. `<parentId>` could either be 1: Bookmarks bar, 2: Mobile Bookmarks, 3: Other Bookmarks.
 
+  `/incognito new` - Open a new Incognito window.
+  `/incognito new <url>` - Create incognito window + tab with URL.
+
   <h1>Miscellaneous</h1>
 
   `/misc` - Choose a random Easter Egg/Function!
