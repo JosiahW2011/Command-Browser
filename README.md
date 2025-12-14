@@ -1,4 +1,4 @@
-<span style="font-size: 128px;">The most recent version of Command-Browser is v1.0<br/>
+<span style="font-size: 256px;">The most recent version of Command-Browser is v1.0<br/>
 Developed by Josiah D. Widener</span>
 
 <p>	
