@@ -2,6 +2,8 @@ Recent Version: `1.0`<br/>
 Developer: <a href="mailto:josiahwidener11@gmail.com">`Josiah D. Widener`</a><br/>
 Date Published (To Github): `12/14/2025`
 
+If you have any ideas for commands, please do let me know in the comments!
+
 <p>	
 	<h1>Basic Commands</h1>
   
