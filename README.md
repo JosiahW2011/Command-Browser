@@ -26,11 +26,17 @@ If you have any ideas for commands, please do let me know in the comments!
   `/incognito new <url>` - Create incognito window + tab with URL.
 
 
-<h1>File Management</h1>
+<h1>Files</h1>
   
   `/file <action> <type> <filename>` - Do stuff with files.<br/>
   `/file _blank <type> <filename>` - Download a plain file with the custom type and filename.<br/>
   `/file download <url> <filename>` - Install file from URL, plus add a custom filename and filetype.
+
+<h1>Task Administration</h1>
+
+  `/task <action> <email>` - Do a thing.
+  `/task mailto <email>` - Open the mailto of an email.
+  `/task calendar` - Pull up Google Calendar.
 
 <h1>Miscellaneous</h1>
 
