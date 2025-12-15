@@ -34,8 +34,8 @@ If you have any ideas for commands, please do let me know in the comments!
 
 <h1>Task Administration</h1>
 
-  `/task <action> <email>` - Do a thing.
-  `/task mailto <email>` - Open the mailto of an email.
+  `/task <action> <email>` - Do a thing.<br/>
+  `/task mailto <email>` - Open the mailto of an email.<br/>
   `/task calendar` - Pull up Google Calendar.
 
 <h1>Miscellaneous</h1>
