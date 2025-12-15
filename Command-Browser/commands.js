@@ -126,5 +126,43 @@ async function runCommand(tokens) {
                 });
             }
             break;
+        case 'psswds':
+            chrome.tabs.create({ url: 'https://passwords.google.com/' })
+            break;
+        case "file":
+            switch (args[0].toLowerCase()) {
+                case "_blank":
+                    const blob = new Blob([""], { type: `${args[1].toLowerCase()}/plain;charset=utf-8` });
+                    const url = window.URL.createObjectURL(blob);
+
+                    chrome.downloads.download({
+                        url: url,
+                        filename: `${args[2]}`,
+                        saveAs: false
+                    }).then(() => {
+                        window.URL.revokeObjectURL(url);
+                    });
+                    break;
+                case "download":
+                    chrome.downloads.download({
+                        url: args[1],
+                        filename: args[2],
+                        saveAs: false
+                    });
+                    break;
+            }
+            
+            break;
+        case "task":
+            switch (args[0].toLowerCase()) {
+                case "mailto":
+                    chrome.tabs.create({ url: `mailto:${args[1]}` });
+                    break;
+                case "calendar":
+                    chrome.tabs.create({ url: 'https://calendar.google.com/' });
+                    break;
+            }
+            
+            break;
     }
 }
