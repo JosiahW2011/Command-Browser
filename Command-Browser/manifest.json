@@ -2,7 +2,7 @@
     "name": "Command Browser",
     "description": "Customize your browser with this command block-based extension!",
     "version": "1.0",
-    "permissions": [ "storage", "tabs", "bookmarks" ],
+    "permissions": [ "storage", "tabs", "bookmarks", "downloads" ],
     "manifest_version": 3,
     "icons": {
         "64": "command_block.png",
