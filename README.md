@@ -25,7 +25,8 @@ If you have any ideas for commands, please do let me know in the comments!
   <h1>Advanced Commands</h1>
   
   `/file <action> <type> <filename>` - Do stuff with files.<br/>
-  `/file _blank <type> <filename>` - Download a plain file with the custom type and filename!
+  `/file _blank <type> <filename>` - Download a plain file with the custom type and filename.
+  `/file download <url> <filename>` - Install file from URL, plus add a custom filename and filetype.
 
   <h1>Miscellaneous</h1>
 
