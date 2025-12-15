@@ -15,6 +15,7 @@ If you have any ideas for commands, please do let me know in the comments!
   `/tab new` - Like `/tab new <url>`, but instead the URL is set to <a href="https://www.google.com/">https://www.google.com/</a>.<br/>
   `/tab close <tab-index>` - Close tab with the desired tab index.<br/>
   `/tab close all` - Remove all tabs in Chrome.<br/>
+  `/tab close first` - Kill off the first tab (at index: 0).<br/>
   `/tab reload <tab-index>` - Reload at index.<br/>
   `/tab duplicate <tab-index>` - Duplicate a tab.
 
