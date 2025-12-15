@@ -1,4 +1,4 @@
-Recent Version: `1.0`<br/>
+Recent Version: `1.0.1`<br/>
 Developer: <a href="mailto:josiahwidener11@gmail.com">`Josiah D. Widener`</a><br/>
 Date Published (To Github): `12/14/2025`
 
