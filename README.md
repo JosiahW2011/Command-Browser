@@ -22,6 +22,11 @@ If you have any ideas for commands, please do let me know in the comments!
   `/incognito new` - Open a new Incognito window.<br/>
   `/incognito new <url>` - Create incognito window + tab with URL.
 
+  <h1>Advanced Commands</h1>
+  
+  `/file <action> <type> <filename>` - Do stuff with files.<br/>
+  `/file _blank <type> <filename>` - Download a plain file with the custom type and filename!
+
   <h1>Miscellaneous</h1>
 
   `/misc` - Choose a random Easter Egg/Function!
