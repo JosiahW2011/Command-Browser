@@ -19,7 +19,7 @@ If you have any ideas for commands, please do let me know in the comments!
   `/tab close all` - Remove all of them in Chrome.<br/>
   `/tab close first` - Kill off the first (at index: 0).<br/>
   
-  `/tab close startswith <string|url>` - Shut only the tabs with the specific string/url at beginning.
+  `/tab close startswith <string|url>` - Shut only the tabs with the specific string/url at beginning.<br/>
   `/tab close endswith <string|url>` - Delete tabs ending with string/url.
   
   `/tab reload <tab-index>` - Reload at index.<br/>
