@@ -8,6 +8,7 @@ If you have any ideas for commands, please do let me know in the comments!
 	
   `/help` - Open this GitHub for commands list.<br/>
   `/search <query>` - Do a basic Google search.
+  `/psswds` - Pull up `<a href="https://passwords.google.com/">https://passwords.google.com/</a>`
 
 <h1>Tab Management</h1>
 
