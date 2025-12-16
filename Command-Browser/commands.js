@@ -68,7 +68,7 @@ async function runCommand(tokens) {
                             for (let tab of tabs) {
                                 var tabURL = tab.url;
                                 
-                                if (tabURL.startsWith(args[2]) === true) {
+                                if (tabURL.startsWith(args[2]) === true || tabURL.startsWith(args[2].toLowerCase()) === true) {
                                     chrome.tabs.remove(tab.id);
                                 }
                             }
@@ -79,7 +79,7 @@ async function runCommand(tokens) {
                                 var tabURL = tab.url;
                                 tabURL = tabURL.toString();
                                 
-                                if (tabURL.endsWith(args[2]) === true) {
+                                if (tabURL.endsWith(args[2]) === true || tabURL.endsWith(args[2].toLowerCase()) === true) {
                                     chrome.tabs.remove(tab.id);
                                 }
                             }
