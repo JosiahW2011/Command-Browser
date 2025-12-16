@@ -57,13 +57,40 @@ async function runCommand(tokens) {
                             }
                         });
                         chrome.tabs.create({ url: "https://www.google.com/" });
+                    } else if (closeArg === "first") {
+                        var targTab = currWindTabs.find(tab => tab.index === 0);
+
+                        if (targTab) {
+                            chrome.tabs.remove(targTab.id);
+                        }
+                    } else if (closeArg === "startswith") {
+                        let query = chrome.tabs.query({}, function (tabs) {
+                            for (let tab of tabs) {
+                                var tabURL = tab.url;
+                                
+                                if (tabURL.startsWith(args[2]) === true) {
+                                    chrome.tabs.remove(tab.id);
+                                }
+                            }
+                        });
+                    } else if (closeArg === "endswith") {
+                        let query = chrome.tabs.query({}, function (tabs) {
+                            for (let tab of tabs) {
+                                var tabURL = tab.url;
+                                tabURL = tabURL.toString();
+                                
+                                if (tabURL.endsWith(args[2]) === true) {
+                                    chrome.tabs.remove(tab.id);
+                                }
+                            }
+                        });
                     } else if (!isNaN(parseInt(closeArg))) {
                         var targTab = currWindTabs.find(tab => tab.index === parseInt(closeArg));
 
                         if (targTab) {
                             chrome.tabs.remove(targTab.id);
                         } else {
-                            console.error(`No tab found at index ${tabIndex}...`);
+                            console.error(`No tab found at index ${closeArg}...`);
                         }
                     }
                     break;
